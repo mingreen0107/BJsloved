@@ -1,31 +1,27 @@
 #include <stdio.h>
 #include <string.h>
 
-int main()
-{
+int main() {
 	int n, i, j, count;
+
 	scanf("%d", &n);
+	
 	char str[51];
+	
 	i = 0;
-	while (i < n)
-	{
+	while (i < n) {
 		scanf("%s", str);
+
 		j = 0;
 		count = 0;
-		while (j < strlen(str))
-		{
+		while (j < strlen(str)) {
 			if (str[j] == '(')
-			{
 				count++;
-			}
 			else
-			{
 				count--;
-			}
-			if (count < 0)
-			{
+			if (count < 0) {
 				printf("NO\n");
-				break;
+				break; 
 			}
 			j++;
 		}

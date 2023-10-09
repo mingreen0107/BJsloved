@@ -19,6 +19,7 @@ int main() {
 				count++;
 			else
 				count--;
+
 			if (count < 0) {
 				printf("NO\n");
 				break; 

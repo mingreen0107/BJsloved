@@ -32,4 +32,5 @@ int main() {
 			printf("NO\n");
 		i++;
 	}
+	return 0;
 }

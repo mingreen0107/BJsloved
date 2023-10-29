@@ -2,6 +2,7 @@
 #include <string.h>
 
 int main() {
+
 	int n, i, j, count;
 
 	scanf("%d", &n);

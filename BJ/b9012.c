@@ -15,6 +15,7 @@ int main() {
 
 		j = 0;
 		count = 0;
+
 		while (j < strlen(str)) {
 			if (str[j] == '(')
 				count++;

@@ -12,7 +12,6 @@ int main() {
 	i = 0;
 	while (i < n) {
 		scanf("%s", str);
-
 		j = 0;
 		count = 0;
 

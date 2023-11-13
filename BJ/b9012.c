@@ -3,14 +3,13 @@
 
 int main() {
 
-	int n, i, j, count;
+	int T, j, count;
 
-	scanf("%d", &n);
-	
+	scanf("%d", &T);
+
 	char str[51];
-	
-	i = 0;
-	while (i < n) {
+
+	while (T--) {
 		scanf("%s", str);
 		j = 0;
 		count = 0;
@@ -23,15 +22,12 @@ int main() {
 
 			if (count < 0) {
 				printf("NO\n");
-				break; 
+				break;
 			}
 			j++;
 		}
-		if (count == 0)
-			printf("YES\n");
-		else if (count > 0)
-			printf("NO\n");
-		i++;
+		if (count == 0) printf("YES\n");
+		else if (count > 0)printf("NO\n");
 	}
 	return 0;
 }

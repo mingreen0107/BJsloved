@@ -5,6 +5,7 @@
 
 // 별명 규약을 확인하는 함수
 int checkNicknames(char si[][21], char ti[][21], int N) {
+
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
             if ((strcmp(si[i], si[j]) == 0 && strcmp(si[i], ti[j]) == 0) && i != j)

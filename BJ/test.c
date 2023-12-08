@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 #define MAX_N 100 // 최대 사람 수
 
 // 별명 규약을 확인하는 함수

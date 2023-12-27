@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 #define MAX_N 100
 
 // 별명 규약을 확인하는 함수

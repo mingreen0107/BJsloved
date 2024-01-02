@@ -30,7 +30,6 @@ int main() {
     }
     // 별명 규약 확인 함수 호출
     int possible = checkNicknames(si, ti, N);
-
     // 결과 출력
     if (possible) {
         printf("YES\n");

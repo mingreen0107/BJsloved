@@ -23,7 +23,6 @@ int main() {
     char ti[MAX_N][21]; // 성을 저장하는 배열
 
     scanf("%d", &N);// 사람 수
-
     // 각 사람의 이름과 성 입력
     for (int i = 0; i < N; i++) {
         scanf("%s %s", si[i], ti[i]);

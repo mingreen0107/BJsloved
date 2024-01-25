@@ -4,10 +4,9 @@
 int main() {
 
 	int T, j, count;
+	char str[51];
 
 	scanf("%d", &T);
-
-	char str[51];
 
 	while (T--) {
 		scanf("%s", str);

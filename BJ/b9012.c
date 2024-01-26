@@ -5,6 +5,7 @@ int main() {
 
 	int T, j, count;
 	char str[51];
+
 	scanf("%d", &T);
 
 	while (T--) {

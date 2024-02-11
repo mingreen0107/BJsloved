@@ -5,6 +5,7 @@ int main() {
 	int a = 1, b, c;
 
 	while (1) {
+
 		scanf("%d %d %d", &a, &b, &c);
 
 		if (a == 0)

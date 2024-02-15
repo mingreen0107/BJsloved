@@ -26,7 +26,6 @@ int main() {
     for (int i = 0; i < N; i++) {
         scanf("%s %s", si[i], ti[i]);
     }
-
     // 별명 규약 확인 함수 호출
     int possible = checkNicknames(si, ti, N);
     // 결과 출력

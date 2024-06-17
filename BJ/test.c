@@ -1,22 +1,12 @@
 #include <stdio.h>
 
-int sum() {
-	static int scount = 5;
-	int acount = 2;
+int main() {
 
-	scount++;
-	acount++;
+    char a = 'a';
+    printf("%c\n", a);
 
-	return scount + acount;
-}
+    char str[5] = { 'a', 'b', 'c', 'd', 0 };
+    printf("%c\n", str[1]);
 
-int main(void) {
-
-	static int scount = 6;
-	int acount = 3;
-
-	printf("sum = %d \t", sum());
-	printf("sum = %d \n", sum());
-
-	return 0;
+    return 0;
 }

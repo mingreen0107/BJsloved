@@ -1,12 +1,12 @@
 #include <stdio.h>
+int i = 15;
 
 int main() {
 
-    char a = 'a';
-    printf("%c\n", a);
-
-    char str[5] = { 'a', 'b', 'c', 'd', 0 };
-    printf("%c\n", str[1]);
+    int i = 5;
+    for (i = 15; i > 3; i = i - 5)
+        printf("%d", i);
+    printf("%d", i);
 
     return 0;
 }
